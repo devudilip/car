@@ -7,13 +7,15 @@
 </head>
 <body>
 <div id="container">
-<%= render 'layouts/container' %>
-<div id="wrap">
-<%= render 'layouts/header' %>
-
-<%= yield %>
-</div>
-<%= render 'layouts/footer' %>
+	<%= render 'layouts/container' %>
+		<div id="wrap">
+		<%= render 'layouts/header1' %>
+		<%= render 'layouts/header2' %>
+			<div id="main">
+			<%= yield %>
+			</div>
+		</div>
+			<%= render 'layouts/footer' %>
 </div>
 </body>
 </html>

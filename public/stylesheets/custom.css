@@ -14,5 +14,47 @@ ul li{
 	float: left;
 }
 a{
-	padding-right:2px;
+	
+}
+
+
+/* header part */
+
+#header1 {
+	height:100px;
+}
+#header2{
+	
+}
+
+#header2 ul{
+	clear: both;
+    margin: 0;
+    padding: 0;
+    background:url(/images/nav-bg.gif);
+     height: 26px;
+     width: 100%;
+     border-bottom: 1px solid #5B8FC1;
+}
+
+#header2 ul li{
+	 padding: 5px 10px 0;
+}
+
+#header2 ul li a {
+	 color: #404040;
+    font-size: 12px;
+    font-weight: bold;
+    text-decoration: none;
+    border-right:1px solid white;
+    padding-right: 15px;
+}
+
+#header2 lastchild:a {
+	border-right:none;
+}
+
+#main{
+	clear: both;
+    margin: 0;
 }

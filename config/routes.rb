@@ -1,15 +1,11 @@
 Car::Application.routes.draw do
-  get "pages/home"
-
-  get "pages/newcars"
-
-  get "pages/usedcars"
-
-  get "pages/sellcar"
-
-  get "pages/research"
-
-  get "pages/finance"
+ root :to => 'pages#home'
+ match '/newcars', :to => 'pages#newcars'
+ match '/usedcars', :to => 'pages#usedcars'
+ match '/sellcar', :to => 'pages#sellcar'
+ match '/research', :to => 'pages#research'
+ match '/finance', :to => 'pages#finance'
+  
 
   # The priority is based upon order of creation:
   # first created -> highest priority.

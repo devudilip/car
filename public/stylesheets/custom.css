@@ -6,6 +6,10 @@ body {
 	background: white;
 }
 
+#main{
+    width: 990px;
+}
+
 ul{
 	list-style: none;
 }
@@ -54,7 +58,96 @@ a{
 	border-right:none;
 }
 
+/* main */
+
 #main{
 	clear: both;
     margin: 0;
+}
+
+/* main left */
+
+#leftmain{
+    width:650px;
+    margin-left: 15px;
+}
+#car{
+    height:250px;
+}
+#car h1{
+   font-size: 28px;
+    margin: 15px 0 10px;
+    color: #5B5B5B !important;
+    font-family: Arial,Tahoma,Verdana;
+    padding: 0;
+}
+
+#car p{
+    color: #445566;
+    font-size: 13px;
+    font-family:Verdana,Arial,sans-serif;
+}
+
+#car a,a:link, a:visited{
+    color: #034FB6;
+    cursor: pointer;
+    outline: medium none;
+    text-decoration: none;
+    font:13px Verdana,Arial,sans-serif;
+}
+
+#car a:hover{
+    color:#2F2F2F;
+    text-decoration: underline;
+}
+.car{
+    width:230px;
+    height:165px;
+    border: 1px solid grey;
+    float:left;
+     margin-right: 10px;
+
+}
+
+/* left main middle */
+#specifications{
+  clear:both;
+  border:1px solid aqua;
+  padding: 5px;
+}
+
+#centernav{
+   clear:both;
+  height: 30px;
+    list-style: none outside none;
+    margin: 0;
+    padding: 0;
+}
+
+#centernav li{
+    background:#ccdbf8;
+    color:black;
+      float: left;
+    font-size: 12px;
+    list-style: none outside none;
+    margin: 0 0.3em 0 0;
+}
+
+.middle h2{
+  color:grey;
+  border-bottom:2px solid grey;
+  }
+
+.middle p{
+  color:grey;
+  font-size:12px;
+}
+.small{
+  font-size:10px;
+}
+
+.middle a{
+  text-decoration:none;
+  color:blue;
+
 }

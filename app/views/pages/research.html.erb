@@ -1,2 +1,29 @@
-<h1>Pages#research</h1>
-<p>Find me in app/views/pages/research.html.erb</p>
+<div id="leftmain">
+	<div id="car">
+	<h1> Hyundai i10 Sportz 1.2 Kappa2 	</h1>
+	<%= image_tag("i10.jpg", :alt => "car", :class => "car") %>
+	<p> Average User rating: <br >
+	<%= image_tag("fstar.gif", :alt => "star") %> <%= image_tag("fstar.gif", :alt => "star") %> <%= image_tag("fstar.gif", :alt => "star") %> <%= image_tag("hstar.gif", :alt => "star") %><%= image_tag("nstar.gif", :alt => "star") %>
+	<a href="#"> 282 reviews </a> | <a href="#"> Write a review </a>
+	</p> 
+
+	<p> 
+	<b> Price: Rs. 4,55,354</b><br />
+	Avg Ex-Showroom Price (<a href="#">check on-road price</a>)
+	<br /><a href="#"> view i10 Photos </a> 
+	</p>
+
+	</div>
+	<ul id="centernav"> 
+	<li> <%= link_to "Overview", "#" %> </li>
+	<li> <%= link_to "Specifications", "#" %> </li>
+	<li> <%= link_to "features", "#" %> </li>
+	<li> <%= link_to "Colors", "#" %> </li>
+	</ul>
+
+	<div id="specifications">
+	<%= render 'pages/overview' %>
+	</div>
+
+
+</div>

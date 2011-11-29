@@ -83,7 +83,7 @@ a{
 #main{
   clear: both;
     margin: auto;
-    height:1500px;
+    height:1550px;
 
 }
 
@@ -385,4 +385,58 @@ color: #FFFFFF;
 
 .adv{
   margin-left:30px;
+}
+
+/* right main dropdown sec */
+
+#research{
+   height:150px;
+
+  background-color: #E7F8FF;
+    border: 1px solid #D4E8F1;
+    clear: both;
+    margin-top: 20px;
+    padding: 0 10px 10px;
+}
+
+#research ul{
+  clear:both;
+  padding:0px;
+  margin:0px;
+
+}
+#research ul li{
+clear:both;
+}
+
+#research h2{
+font-size: 18px;
+    margin: 10px 0 7px;
+    color: #5B5B5B !important;
+    font-family:Arial,Tahoma,Verdana;
+    padding: 0;
+}
+
+.selectcar{
+  width: 160px;
+   border: 1px solid #D3D3D3;
+    padding: 0.2em;
+    
+}
+.submitcar{
+  background:#FFAA22;
+  border: 1px solid #FFAA22;
+    border-radius: 5px 5px 5px 5px;
+    color: #333333;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: bold;
+    margin: 0;
+    overflow: visible;
+    padding: 3px 3px;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: 0 1px 0 #FFEE66;
+    width: auto;
+ margin-top: 2px;
 }

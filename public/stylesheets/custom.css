@@ -3,7 +3,7 @@ body {
 }
 
 #wrap {
-	background: white;
+  background: white;
 }
 
 #mainsheet{
@@ -11,14 +11,14 @@ body {
 }
 
 ul{
-	list-style: none;
+  list-style: none;
 }
 
 ul li{
-	float: left;
+  float: left;
 }
 a{
-	
+  
 }
 
 
@@ -43,15 +43,16 @@ a{
 
 }
 #header1 {
-	height:100px;
+  height:100px;
   clear:both;
+  width:990px;
 }
 #header2{
-	
+  
 }
 
 #header2 ul{
-	clear: both;
+  clear: both;
     margin: 0;
     padding: 0;
     background:url(/images/nav-bg.gif);
@@ -61,11 +62,11 @@ a{
 }
 
 #header2 ul li{
-	 padding: 5px 10px 0;
+   padding: 5px 10px 0;
 }
 
 #header2 ul li a {
-	 color: #404040;
+   color: #404040;
     font-size: 12px;
     font-weight: bold;
     text-decoration: none;
@@ -74,13 +75,13 @@ a{
 }
 
 #header2 lastchild:a {
-	border-right:none;
+  border-right:none;
 }
 
 /* main */
 
 #main{
-	clear: both;
+  clear: both;
     margin: auto;
     height:1500px;
 
@@ -143,19 +144,22 @@ a{
 
 #centernav{
    clear:both;
-  height: 30px;
+  height: 0px;
     list-style: none outside none;
     margin: 0;
     padding: 0;
 }
 
-#centernav li{
+#centernav li a{
     background:#ccdbf8;
     color:black;
       float: left;
     font-size: 12px;
+width:2px
     list-style: none outside none;
     margin: 0 0.3em 0 0;
+    padding:5px 10px;
+    border-radius: 5px 5px 0 0;
 }
 
 .middle h2{

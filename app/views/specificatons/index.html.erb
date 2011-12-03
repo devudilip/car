@@ -1,3 +1,11 @@
+  <div id="main">
+  <div id="leftmain">
+  <ul id="centernav"> 
+  <li> <%= link_to "Overview", root_path %> </li>
+  <li> <%= link_to "Specifications", specificatons_path %>  </li>
+  <li> <%= link_to "features", "#" %> </li>
+  <li> <%= link_to "Colors", "#" %> </li>
+  </ul>
 <div id="tab-nav-panel">
 <h2 class="hd2">i10 Magna 1.2 Kappa2 Technical Specs</h2>
 
@@ -21,4 +29,9 @@
 
 <br />
 </div>
+</div>
 
+<div id="rightmain">
+  <%= render 'pages/rightmain' %>
+</div>
+</div>

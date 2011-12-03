@@ -1,4 +1,6 @@
 Car::Application.routes.draw do
+  resources :specificatons
+
  root :to => 'pages#research'
  match '/home', :to => 'pages#home'
  match '/newcars', :to => 'pages#newcars'

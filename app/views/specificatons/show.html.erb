@@ -1,0 +1,16 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Specification:</b>
+  <%= @specificaton.specification %>
+</p>
+
+<p>
+  <b>Rate:</b>
+  <%= @specificaton.rate %>
+</p>
+
+
+<%= link_to 'Edit', edit_specificaton_path(@specificaton) %> |
+<%= link_to 'Back', specificatons_path %>
+<%= link_to 'New Specificaton', new_specificaton_path %>

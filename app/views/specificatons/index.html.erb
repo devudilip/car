@@ -1,0 +1,23 @@
+<h1>Listing specificatons</h1>
+
+<table>
+  <tr>
+    <th>Specification</th>
+    <th>Rate</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @specificatons.each do |specificaton| %>
+  <tr>
+    <td><%= specificaton.specification %></td>
+    <td><%= specificaton.rate %></td>
+    
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+
